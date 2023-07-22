@@ -33,7 +33,7 @@ header{
 }
 
 .bag-container{
-    background-size:cover;
+    background-size: contain;
     color: #fff;
     padding: .5rem;
     justify-content: space-between;
@@ -193,6 +193,39 @@ header{
     margin-top: 1.6rem;
 }
 
+footer {
+    background-color: #f0f0f0;
+    padding: 2rem 0;
+    text-align: center;
+}
+
+footer p {
+    color: #888;
+    font-size: 1.4rem;
+}
+
+.footer-links {
+    list-style: none;
+    margin-top: 1.2rem;
+}
+
+.footer-links li {
+    display: inline-block;
+    margin-right: 1.5rem;
+}
+
+.footer-links li:last-child {
+    margin-right: 0;
+}
+
+.footer-links a {
+    color: #0070c9;
+    text-decoration: none;
+}
+
+.footer-links a:hover {
+    text-decoration: underline;
+}
 
 @media screen and (max-width: 1068px){
     .iphone-11-pro{
